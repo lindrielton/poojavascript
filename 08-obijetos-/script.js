@@ -20,14 +20,9 @@ let pessoa = {
 
 console.log(pessoa.caracteristicas.descricao);
 console.log(pessoa.caracteristicas.cnh);
-console.log(pessoa.caracteristicas.descricao[1]);
 
 
-let  fizionomia = 'descricao';
-
-console.log(pessoa.caracteristicas[fizionomia]);// para acessar um obijeto dentro de ouitro obijeto é preciso ter cuidado na seguencia;
 
 
-let lazer = "passaTempo"
 
-console.log(pessoa[lazer]);
+
