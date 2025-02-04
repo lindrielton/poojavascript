@@ -10,10 +10,11 @@ let afazeres = {
       console.log(`${this.atarde} em  tempo integral..`)
       for(i = 0; i < this.manha.length; i++){
          if(i < 10){
-            console.log('sua lista dos afazeres ainda esta incompleta.')
+           
          }
          
       }
+      console.log('sua lista dos afazeres ainda esta incompleta.')
    },
 
   

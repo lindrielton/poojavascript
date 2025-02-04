@@ -16,7 +16,7 @@ let pessoa = {
 }
 
 
-delete pessoa.idade;//operação de lelete
+delete pessoa.idade;//operação de delete
 
 console.log(pessoa.idade); 
 
