@@ -1,4 +1,4 @@
-// funçoes que retornam obijetos;
+//window
 
 console.log(window);
 
