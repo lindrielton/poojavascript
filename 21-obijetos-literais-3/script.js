@@ -1,3 +1,6 @@
+
+
+
 let rodas = 4;
 let peneus = 4;
 let cor = 'vermelho';
