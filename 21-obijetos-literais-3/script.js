@@ -7,6 +7,7 @@ let cor = 'vermelho';
 let modelo = 'caminhonete';
 
 
+
 let carro = {
     rodas,
     peneus,

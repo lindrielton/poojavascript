@@ -1,4 +1,18 @@
-// ninja
+// validador
+
+
+
+
+
+
+function comparaObijeto(obj1, obj2){
+    if(obj1 instanceof obj2){
+            console.log(`o obijeto ${obj1.nome} é uma instancia de obijeto ${obj2.name}` );
+    }else{
+        console.log(`o obijeto ${obj1.nome} não é uma instancia de obijeto ${obj2.name}`  );
+    }
+}
+
 function ninja(nome, valor){
     this.nome = nome;
     this.shuriquem  = valor;
@@ -27,15 +41,9 @@ let ninja1 = new ninja('naruto', 3);
 
 let akatsuk =  new inimigo('obito')
 
-console.log(ninja1);
 
 
-
-ninja1.atirarShuriken(akatsuk);
-
-console.log(akatsuk);
-
-
-
-
-
+comparaObijeto(ninja1, ninja);
+comparaObijeto(akatsuk, ninja);
+comparaObijeto(akatsuk, ninja);
+comparaObijeto(ninja1, inimigo);
