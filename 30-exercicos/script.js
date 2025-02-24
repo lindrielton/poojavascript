@@ -39,7 +39,7 @@ function inimigo(nome){
 
 let ninja1 = new ninja('naruto', 3);
 
-let akatsuk =  new inimigo('obito')
+let akatsuk =  new inimigo('obito');
 
 
 
