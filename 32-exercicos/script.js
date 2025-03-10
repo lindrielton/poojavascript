@@ -14,6 +14,7 @@ let {rodas, tipo, cor, carga, placa, modeno} = caminhao;
 
 
 console.log(rodas);
+console.log(placa);
 
 
 
